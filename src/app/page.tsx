@@ -50,7 +50,7 @@ function Expertises() {
                 <FadeIn>
                   <div className="flex items-center gap-5" >
                     <Image src={logo} alt={key} unoptimized />
-                    <p className="text-white font-medium" >{key}</p>
+                    <p className="text-white font-medium text-sm sm:text-lg" >{key}</p>
                   </div>
                 </FadeIn>
               </li>
