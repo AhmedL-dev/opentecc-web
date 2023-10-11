@@ -234,7 +234,7 @@ function Solutions() {
 
 export const metadata: Metadata = {
   description:
-    'We are a development studio working at the intersection of design and technology.',
+    'We are OpenTecc, where innovation is deeply embedded in our DNA, not just as a concept, but as our core principle.',
 }
 
 export default async function Home() {
