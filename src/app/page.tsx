@@ -213,7 +213,7 @@ function Solutions() {
         </p>
       </SectionIntro>
       <div className="flex justify-center items-center mt-16 transition-transform transform hover:scale-105 duration-500">
-        <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
+        <FadeIn className="w-[22rem] flex-none lg:w-[45rem]">
           <div className="relative hover:shadow-lg rounded-2xl overflow-hidden transition-all duration-500">
             <Image
               src={upfaceSolutionImage}
