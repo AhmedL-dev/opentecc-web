@@ -18,6 +18,7 @@ import logoPhobiaDark from '@/images/clients/phobia/logo-dark.svg'
 import ecommerceIcon from '@/images/icons/ecommerce.svg'
 import fintechIcon from '@/images/icons/fintech.svg'
 import imageLaptop from '@/images/laptop.jpg'
+import upfaceSolutionImage from '@/images/solutions/upface-solution.svg'
 import { type CaseStudy, type MDXEntry, loadCaseStudies } from '@/lib/mdx'
 
 const expertises = [
@@ -175,6 +176,62 @@ function Services() {
   )
 }
 
+// function Solutions() {
+//   return (
+//     <>
+//       <SectionIntro
+//         eyebrow="Solutions"
+//         title="Making Invoice Management Effortless for Your Financial Ease"
+//         className="mt-24 sm:mt-32 lg:mt-40"
+//       >
+//         <p>
+//           At OpenTecc, we specialize in crafting solutions that transcend challenges, and Upface stands as a prime example of our commitment to redefining operations through cutting-edge technology.
+//         </p>
+//       </SectionIntro>
+//       <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
+//         <Image
+//           src={upfaceSolutionImage}
+//           alt="Upface Solution"
+//           className="mt-16"
+//           unoptimized
+//         />
+//       </FadeIn>
+//     </>
+//   )
+// }
+
+function Solutions() {
+  return (
+    <>
+      <SectionIntro
+        eyebrow="Solutions"
+        title="Making Invoice Management Effortless for Your Financial Ease"
+        className="mt-24 sm:mt-32 lg:mt-40"
+      >
+        <p>
+          At OpenTecc, we specialize in crafting solutions that transcend challenges, and Upface stands as a prime example of our commitment to redefining operations through cutting-edge technology.
+        </p>
+      </SectionIntro>
+      <div className="flex justify-center items-center mt-16 transition-transform transform hover:scale-105 duration-500">
+        <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
+          <div className="relative hover:shadow-lg rounded-2xl overflow-hidden transition-all duration-500">
+            <Image
+              src={upfaceSolutionImage}
+              alt="Upface Solution"
+              className="filter grayscale hover:grayscale-0 transition-all duration-500"
+              unoptimized
+            />
+          </div>
+        </FadeIn>
+      </div>
+    </>
+  )
+}
+
+
+
+
+
 export const metadata: Metadata = {
   description:
     'We are a development studio working at the intersection of design and technology.',
@@ -214,6 +271,8 @@ export default async function Home() {
       </Testimonial>
 
       <Services />
+
+      <Solutions />
 
       <ContactSection />
     </>
