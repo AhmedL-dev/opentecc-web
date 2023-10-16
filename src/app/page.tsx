@@ -209,7 +209,7 @@ function Solutions() {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          At OpenTecc, we specialize in crafting solutions that transcend challenges, and Upface stands as a prime example of our commitment to redefining operations through cutting-edge technology.
+          At OpenTecc, we specialize in crafting solutions that transcend challenges, and <strong>Upface</strong> stands as a prime example of our commitment to redefining operations through innovative technology.
         </p>
       </SectionIntro>
       <div className="flex justify-center items-center mt-16 transition-transform transform hover:scale-105 duration-500">
