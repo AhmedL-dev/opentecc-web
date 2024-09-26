@@ -11,7 +11,7 @@ const navigation = [
     links: [
       { title: 'Upface', href: '/work/family-fund' },
       { title: 'Gonomads', href: '/work/unseal' },
-      { title: 'Egaliti', href: '/work/phobia' },
+      { title: 'Egaliti', href: 'https://www.egaliti.com' },
       {
         title: (
           <>
