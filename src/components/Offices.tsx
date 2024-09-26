@@ -40,16 +40,9 @@ export function Offices({
       </li>
       <li>
         <Office name="Agadir" invert={invert}>
-          77 Extention Dakhla
+          Technopark Agadir TA207
           <br />
           80000, Agadir, Morocco
-        </Office>
-      </li>
-      <li>
-        <Office name="Technopark Agadir" invert={invert}>
-          Comming Soon
-          <br />
-          {/* 7190, Billund, Denmark */}
         </Office>
       </li>
     </ul>
